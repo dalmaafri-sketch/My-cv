@@ -3,22 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>دعوة زفاف - ريف النزيهة</title>
+    <title>الملف الشخصي | فهد المعافري</title>
     <style>
-        body { background-color: #f4ece2; font-family: 'Arial', sans-serif; text-align: center; color: #5d4037; padding: 50px; }
-        .card { background: white; border: 15px double #d4af37; padding: 40px; max-width: 600px; margin: auto; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-radius: 20px; }
-        h1 { color: #d4af37; font-size: 2.5em; margin-bottom: 20px; }
-        p { font-size: 1.5em; line-height: 1.6; }
-        .footer { margin-top: 30px; font-weight: bold; color: #8d6e63; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            min-height: 100vh;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        header {
+            background-color: #1a3a8a;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 25px 20px;
+            border-bottom: 1px solid #eee;
+        }
+        h1, h2 { margin-bottom: 15px; }
+        h2 { color: #1a3a8a; font-size: 1.4em; }
+        
+        /* تنسيق نموذج التواصل */
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; /* لضمان عدم خروج المدخلات عن الحواف */
+        }
+        button {
+            background-color: #1a3a8a;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #777;
+            background: #f9f9f9;
+        }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>إعلان فرح في ريف النزيهة</h1>
-        <p>"بدأنا بالترحاب والكرم، وانتهينا بالود والنسب. زواج يجمع بين شهامة ريف النزيهة ونبل المشاعر."</p>
-        <div class="footer">
-            بإشراف وإخراج: فهد محمد سعيد
-        </div>
-    </div>
+
+<div class="container">
+    <header>
+        <h1>فهد المعافري</h1>
+        <p>متخصص في المحاسبة وإدارة الحاسوب والترجمة التقنية</p>
+    </header>
+
+    <section>
+        <h2>حول الملف الأكاديمي</h2>
+        <p>خريج محاسبة من جامعة صنعاء، مع دراسات متقدمة في إدارة الحاسوب من جامعة باباساهيب أمبيدكار بالهند.</p>
+    </section>
+
+    <section>
+        <h2>المهارات المهنية</h2>
+        <ul>
+            <li>إدارة النظم المحاسبية</li>
+            <li>تطوير وإدارة المحتوى الرقمي</li>
+            <li>الترجمة والتعريب التقني</li>
+            <li>مهارات تقنية في بيئة أندرويد</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>تواصل معي</h2>
+        <form>
+            <input type="text" placeholder="الاسم الكامل">
+            <input type="email" placeholder="البريد الإلكتروني">
+            <textarea placeholder="اكتب رسالتك هنا..." rows="4"></textarea>
+            <button type="button">إرسال الرسالة</button>
+        </form>
+    </section>
+
+    <footer>
+        حقوق النشر محفوظة &copy; 2026
+    </footer>
+</div>
+
 </body>
 </html>
